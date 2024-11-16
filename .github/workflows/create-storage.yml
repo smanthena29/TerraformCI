@@ -1,9 +1,7 @@
 name: Create Azure Storage Account
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   create-storage-account:
